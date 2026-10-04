@@ -20,10 +20,10 @@
  * If the budget/supplier modules use different variable names, change
  * ONLY the right-hand side of these lines to match budget.h/suppliers.h.
  * ------------------------------------------------------------------ */
-#define BUD_COUNT      budgetCount
-#define BUD_DEPT(i)    budgetDept[i]
-#define BUD_ALLOC(i)   budgetAllocated[i]
-#define BUD_SPENT(i)   budgetSpent[i]
+#define BUD_COUNT      deptCount
+#define BUD_DEPT(i)    deptName[i]
+#define BUD_ALLOC(i)   deptAllocated[i]
+#define BUD_SPENT(i)   deptSpent[i]
 
 #define SUP_COUNT      supplierCount
 #define SUP_ID(i)      supplierId[i]
